@@ -1,0 +1,98 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+input:focus {
+  outline: none;
+}
+
+li {
+  list-style: none;
+}
+
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+
+  background-color: rgb(50, 50, 50);
+}
+
+.main__content {
+  height: 30rem;
+  width: 30rem;
+  background-color: rgb(80, 80, 80);
+  border-radius: 2rem;
+}
+
+.main__title {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.main__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  gap: 1rem;
+}
+
+.main__form > input {
+  background-color: rgb(120, 120, 120);
+  border: none;
+  padding: 0.5rem 2rem;
+  border-radius: 1rem;
+  color: white;
+}
+
+.main__form > button {
+  padding: 0.5rem 1.5rem;
+  border-radius: 1rem;
+  background-color: rgb(120, 120, 120);
+  border: none;
+  color: white;
+}
+
+.main__todos {
+  background-color: rgb(120, 120, 120);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding-bottom: 1rem;
+}
+
+.delete {
+  display: none;
+}
+
+.btn {
+  padding: 0.5rem 2rem;
+  border-radius: 1rem;
+  border: none;
+  background-color: rgb(80, 80, 80);
+  color: white;
+}
+
+.list__item {
+  text-align: center;
+  margin: 0.5rem;
+}
+
+li {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}

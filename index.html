@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="main__content">
+        <div class="main__title">
+          <h1>Todo app</h1>
+        </div>
+        <div class="main__form">
+          <label for="text">New Todo</label>
+          <input id="todoInput" type="text" />
+
+          <button id="todoButton" type="submit">Submit Todo</button>
+        </div>
+
+        <div class="main__title">
+          <h1>All Todos</h1>
+        </div>
+
+        <div class="main__todos">
+          <ul id="main__list"></ul>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
